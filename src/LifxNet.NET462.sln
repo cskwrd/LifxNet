@@ -5,11 +5,15 @@ VisualStudioVersion = 15.0.26403.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifxNet", "LifxNet\LifxNet.csproj", "{9ECD8C00-1C8C-4ABB-B327-525D9E719C20}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleApps", "SampleApps", "{41199DCE-DF15-4BD2-B5A4-1836B3A5BF54}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{3D832297-7F3C-46E0-A5E2-3C295F8426CB}"
 	ProjectSection(SolutionItems) = preProject
 		..\LICENSE = ..\LICENSE
 		..\README.md = ..\README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.NET462", "SampleApps\SampleApp.NET462\SampleApp.NET462.csproj", "{9165A342-4844-4655-8D1E-D607CD3AA2BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,8 +43,27 @@ Global
 		{9ECD8C00-1C8C-4ABB-B327-525D9E719C20}.Release|x64.Build.0 = Release|Any CPU
 		{9ECD8C00-1C8C-4ABB-B327-525D9E719C20}.Release|x86.ActiveCfg = Release|Any CPU
 		{9ECD8C00-1C8C-4ABB-B327-525D9E719C20}.Release|x86.Build.0 = Release|Any CPU
+		{9165A342-4844-4655-8D1E-D607CD3AA2BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9165A342-4844-4655-8D1E-D607CD3AA2BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9165A342-4844-4655-8D1E-D607CD3AA2BD}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{9165A342-4844-4655-8D1E-D607CD3AA2BD}.Debug|ARM.Build.0 = Debug|Any CPU
+		{9165A342-4844-4655-8D1E-D607CD3AA2BD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9165A342-4844-4655-8D1E-D607CD3AA2BD}.Debug|x64.Build.0 = Debug|Any CPU
+		{9165A342-4844-4655-8D1E-D607CD3AA2BD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9165A342-4844-4655-8D1E-D607CD3AA2BD}.Debug|x86.Build.0 = Debug|Any CPU
+		{9165A342-4844-4655-8D1E-D607CD3AA2BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9165A342-4844-4655-8D1E-D607CD3AA2BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9165A342-4844-4655-8D1E-D607CD3AA2BD}.Release|ARM.ActiveCfg = Release|Any CPU
+		{9165A342-4844-4655-8D1E-D607CD3AA2BD}.Release|ARM.Build.0 = Release|Any CPU
+		{9165A342-4844-4655-8D1E-D607CD3AA2BD}.Release|x64.ActiveCfg = Release|Any CPU
+		{9165A342-4844-4655-8D1E-D607CD3AA2BD}.Release|x64.Build.0 = Release|Any CPU
+		{9165A342-4844-4655-8D1E-D607CD3AA2BD}.Release|x86.ActiveCfg = Release|Any CPU
+		{9165A342-4844-4655-8D1E-D607CD3AA2BD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9165A342-4844-4655-8D1E-D607CD3AA2BD} = {41199DCE-DF15-4BD2-B5A4-1836B3A5BF54}
 	EndGlobalSection
 EndGlobal
